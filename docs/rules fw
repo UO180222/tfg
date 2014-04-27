@@ -1,0 +1,7 @@
+ufw allow from 156.35.94.186 to any port 111 proto tcp
+ufw allow from 156.35.94.186 to any port 111 proto udp
+ufw allow from 156.35.94.186 to any port 2049 proto tcp
+ufw allow from 156.35.94.186 to any port 2049 proto udp
+ufw allow from 156.35.94.186 to any port 32765:32767 proto tcp
+ufw allow from 156.35.94.186 to any port 32765:32767 proto udp
+

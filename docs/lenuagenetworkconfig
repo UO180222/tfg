@@ -1,0 +1,20 @@
+ /etc/resolv.conf 
+nameserver 156.35.14.2
+nameserver 156.35.14.3
+
+/etc/sysconfig/network
+NETWORKING=yes
+HOSTNAME=lenuage.tfg
+GATEWAY=156.35.94.201
+
+cat /etc/sysconfig/network-scripts/ifcfg-eth0 
+DEVICE=eth0
+HWADDR=FA:9A:FF:18:BA:A8
+TYPE=Ethernet
+UUID=d91b0fec-f057-41d1-8d8a-38433da31dd8
+ONBOOT=yes
+NM_CONTROLLED=yes
+BOOTPROTO=static
+IPADDR=156.35.95.22
+NETMASK=255.255.254.0
+
