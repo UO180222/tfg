@@ -1,6 +1,7 @@
 #1 Terminar la instalacion de xoa en alexandria: OK
-#2 Instalar OwnCLoud en alexandria
-#3 Documentar creacion de mi primera maquina de OpenStack
-#4 Aniadir usuarios y tenants de prueba
-#5 Documentar la integracion AD-OpenStack v2 (todo en el AD)
-#6 
+#2 Instalar OwnCLoud en alexandria: OK aunque falta temrinar de configurarlo
+#3 Documentar creacion de mi primera maquina de OpenStack: OK falta revision CirrOS
+#4 Aniadir usuarios y tenants de prueba: falta
+#5 Documentar la integracion AD-OpenStack v2 (todo en el AD): falta
+#6 Problemas encontrados: uso de recursos, cores, IPs...
+#7 Revisar a partir de la 17
