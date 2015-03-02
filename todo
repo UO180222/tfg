@@ -7,3 +7,34 @@
 #7 Revisar a partir de la 17
 documentar http://en.wikipedia.org/wiki/Shellshock_%28software_bug%29
 #8 Apartado Copias de seguridad, hablar de GIT, revisar estado Owncloud
+
+
+
+Apartados:
+Proyecto
+  Requisitos
+    Requisitos Funcionales
+    Requisitos No funcionales
+  Desarrollo de este proyecto
+  Opensource en este pryecto
+  Licencia y disponibilidad
+
+  Aplicaciones
+     VirtualBox
+     XenOrchertra
+     ...
+  Estado del arte
+     Amazon EC2
+     Eucaliptus
+     OpenNebula
+     VmWARE vCloud
+
+   ¿Qué se pretende?
+     ¿que es la nube?
+
+   Acceso remoto al servidor físico (xenserver05)
+    Montaje de la infraestructura
+    ¿Qué se pretende realizar?
+       Elección de Windows
+       Elección de OpenStack como nuestro sistema Cloud Computing
+
