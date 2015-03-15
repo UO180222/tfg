@@ -1,17 +1,4 @@
-#1 Terminar la instalacion de xoa en alexandria: OK falta
-#2 Instalar OwnCLoud en alexandria: OK aunque falta terminar de configurarlo
-#3 Documentar creacion de mi primera maquina de OpenStack: OK falta revision CirrOS
-#4 Aniadir usuarios y tenants de prueba: falta
-#5 Documentar la integracion AD-OpenStack v2 (todo en el AD): falta
-#6 Problemas encontrados: uso de recursos, cores, IPs...
-#7 Revisar a partir de la 17
-documentar http://en.wikipedia.org/wiki/Shellshock_%28software_bug%29
-#8 Apartado Copias de seguridad, hablar de GIT, revisar estado Owncloud
-
-
-
-Apartados:
-Proyecto
+﻿Proyecto
  - Requisitos
     Requisitos Funcionales
     Requisitos No funcionales
@@ -19,10 +6,10 @@ Proyecto
  - Opensource en este proyecto
  - Licencia y disponibilidad
 
- - Aplicaciones
+ - Aplicaciones utilizadas durante el desarrollo
      VirtualBox
      XenOrchertra
-     ....
+     .... (y mas)
 
  - Estado del arte
      Amazon EC2
@@ -31,7 +18,7 @@ Proyecto
      VmWARE vCloud
 
   - ¿Qué se pretende?
-      ¿que es la nube?
+      ¿qué es la nube?
       Pros y contras del modelo de nube
 
  - Acceso remoto al servidor físico (xenserver05)
@@ -51,6 +38,7 @@ Proyecto
         Copias de seguridad
           owncloud
 	  git
+
  - Openstack
       Historia
       Componentes
@@ -58,7 +46,8 @@ Proyecto
         Swift
         Keystone
         Horizon
-        ....
+        .... (y mas)
+
  - Solucionando el problema
        Autenticación en OpenStack
        Modificaciones necesarias
@@ -67,11 +56,3 @@ Proyecto
 
  - Problemas encontrados
  - Ampliaciones
-
-
-
-Presentacion
-------------
-
-Terna roles-assignments-usuarios
-
