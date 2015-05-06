@@ -25,18 +25,24 @@
     <task id="1" name="Inicio" note="" work="28800" start="20140123T000000Z" end="20140123T170000Z" work-start="20140123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="2" name="Entrega de anteproyecto" note="" work="28800" start="20140123T000000Z" end="20140123T170000Z" work-start="20140123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
     </task>
-    <task id="3" name="Asignaci&#xF3;n de sservidor" note="Me asignan servidor en la escuela para desplegar mi proyecto" work="28800" start="20140128T000000Z" end="20140128T170000Z" work-start="20140128T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="3" name="Asignaci&#xF3;n de servidor" note="Me asignan servidor en la escuela para desplegar mi proyecto" work="28800" start="20140128T000000Z" end="20140128T170000Z" work-start="20140128T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20140128T000000Z"/>
     </task>
-    <task id="4" name="Acceso xenserver-05" note="Me dan las claves de acceso al Xen-Server 05" work="28800" start="20140129T000000Z" end="20140129T170000Z" work-start="20140129T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="4" name="Credenciales de acceso xenserver-05" note="Me dan las claves de acceso al Xen-Server 05" work="28800" start="20140129T000000Z" end="20140129T170000Z" work-start="20140129T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20140129T000000Z"/>
     </task>
-    <task id="5" name="Primeras pruebas y documentaci&#xF3;n XenServer" note="" work="144000" start="20140129T000000Z" end="20140204T170000Z" work-start="20140129T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="5" name="Pruebas de acceso y lectura de documentaci&#xF3;n XenServer" note="" work="144000" start="20140129T000000Z" end="20140204T170000Z" work-start="20140129T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20140129T000000Z"/>
     </task>
-    <task id="6" name="Primera maquina GNU/Linux desplagada con exito" note="" work="57600" start="20140205T000000Z" end="20140206T170000Z" work-start="20140205T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="6" name="Primera m&#xE1;quina GNU/Linux iniciada con &#xE9;xito (liveCD)" note="" work="28800" start="20140123T000000Z" end="20140123T170000Z" work-start="20140123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20140205T000000Z"/>
+      <task id="7" name="" note="" work="28800" start="20140123T000000Z" end="20140123T170000Z" work-start="20140123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
     </task>
+    <task id="8" name="" note="" work="28800" start="20140123T000000Z" end="20140123T170000Z" work-start="20140123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="9" name="Instalaci&#xF3;n de Windows" note="" work="576000" start="20140506T000000Z" end="20140602T170000Z" work-start="20140506T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20140506T000000Z"/>
+    </task>
+    <task id="10" name="Instalaci&#xF3;n de Linux (host OpenStack)" note="" work="28800" start="20140123T000000Z" end="20140123T170000Z" work-start="20140123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
   </tasks>
   <resource-groups/>
   <resources/>
