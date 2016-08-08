@@ -1,58 +1,188 @@
-﻿Proyecto
- - Requisitos
-    Requisitos Funcionales
-    Requisitos No funcionales
- - Desarrollo de este proyecto
- - Opensource en este proyecto
- - Licencia y disponibilidad
+Resumen	3
+Palabras clave	4
+Summary	5
+Keywords	6
+OpenStack, Active Directory, virtualization, cloud	6
+Índice general	7
+Índice de figuras	11
+Capítulo 1. Memoria del Proyecto	12
+¿Qué se pretende?	12
+Desarrollo del Proyecto	12
+Desarrollo de la Documentación	13
+Apostando por herramientas abiertas	14
+Disponibilidad del proyecto	15
+Resumen de todos los aspectos	17
+Introducción	17
+Aspectos teóricos	17
+Planificación del Proyecto y Resumen de Presupuestos	17
+Análisis	17
+Diseño del sistema	17
+Implementación del sistema	17
+Problemas encontrados	18
+Ampliaciones	18
+Referencias bibliográficas	18
+Capítulo 2. Introducción	19
+Justificación del proyecto	19
+Objetivos del Proyecto	19
+Estudio de la Situación Actual	22
+Evaluación de Alternativas	22
+Eucalyptus	22
+Apache CloudStack	22
+Amazon Web Services (AWS)	23
+VmWARE vCloud air	23
+OpenNebula	24
+Google Compute Engine	24
+Microsoft Azure	25
+Capítulo 3. Aspectos Teóricos	26
+¿Qué es la nube?	26
+Algunos pros y contras del modelo en la nube	27
+Capítulo 4. Planificación del Proyecto y Resumen de Presupuestos	29
+Planificación	29
+Planificación Inicial	29
+Explicación	29
+Planificación Final	30
+Presupuesto	32
+Capítulo 5. Análisis	33
+Descripción del servidor físico	33
+Infraestructura necesaria	36
+¿Qué se pretende?	36
+Elección de Windows	37
+Licencias	37
+Decisión	40
+Elección de OpenStack	40
+Elección de la distribución GNU/Linux	41
+Ubuntu (y derivadas)	42
+SuSe	43
+RedHat (y derivadas)	43
+Requisitos del Sistema	45
+Requisitos funcionales	45
+Requisitos no funcionales	46
+Identificación de Actores del Sistema	46
+Administrador del sistema	46
+Usuarios del sistema	46
+Usuario 'Alumno'	47
+Usuario 'Profesor'	47
+Especificación de Casos de Uso	47
+Capítulo 6. Diseño del Sistema	50
+Arquitectura	50
+Aprovisionamiento hardware	50
+Windows Server	51
+Scientific Linux	51
+Configuraciones de Red	53
+Herramientas y programas usados durante el desarrollo	54
+Virtualización	54
+Xen Server	54
+Xen Center	54
+Xen Orchestra	55
+VirtualBox	56
+Edición de archivos e imágenes	56
+Libreoffice	56
+Vim	57
+Gedit	57
+GIMP	57
+Generación de diagramas	58
+draw.io	58
+Planner para Gnome	58
+Otros	59
+DreamSpark	59
+Firefox	59
+Git	60
+NFS	60
+Copias de seguridad	62
+GitHub	63
+ownCloud	63
+Capítulo 7. Implementación del Sistema	64
+Instalaciones	64
+Preparativos necesarios para la instalación Windows Server	64
+Instalación física	64
+Instalación remota utilizando un almacén en red	65
+Instalación de Debian	66
+Instalación y configuración del almacén de imágenes NFS	70
+Uso de NFS desde Xen Server	75
+Instalación de Windows Server	77
+Instalación de Roles y Características necesarias	79
+Instalación Xen Orchesta	81
+Instalación manual	81
+Instalación de Scientific Linux	88
+Configuración de red	89
+Instalación de OpenStack mediante RDO Packstack	92
+Instalación y configuración de ownCloud en Debian	99
+Instalación	99
+Configuración HTTP/SSL en ownCloud	103
+Configuración Apache	104
+Integración OwnCloud Draw.io	107
+OpenStack IceHouse	110
+Historia del desarrollo	110
+Versiones	110
+Summits	112
+Componentes	112
+Nova (Computación)	113
+Swift (Almacenamiento de Objetos)	113
+Keystone (Identidad)	114
+Horizon (Interfaz Web)	114
+Glance (Imágenes)	114
+Cinder (Volúmenes)	114
+Neutron (Conectividad de red)	115
+Capitulo 8. Integración y pruebas	116
+Introducción	116
+Autenticación en OpenStack	117
+Directorio Activo de Microsoft y OpenStack	117
+Creación de usuarios y tenants (proyectos)	119
+Añadir usuarios de servicio de OpenStack al Directorio Activo	125
+Añadir roles	127
+Creación la primera máquina en OpenStack	130
+Descarga de la imagen	130
+Capítulo 9. Problemas encontrados	135
+Falta de espacio en disco en el servidor OpenStack	135
+Extendiendo el tamaño de raíz '/'	135
+Problemas con xapi	138
+Heartbleed	141
+Explicación	142
+Solución	144
+SeLinux activado el máquinas RH	144
+Reparar la conexión a la biblioteca NFS	144
+Capítulo 10. Ampliaciones	146
+Actualización a la última versión de OpenStack	146
+Diseño de un entorno multinodo	146
+Añadir más nodos de computación	147
+Referencias bibliográficas	148
+Libros	148
+Referencias en Internet	148
+Precios y Licencias	148
+Programas	148
+Instalaciones	149
 
- - Aplicaciones utilizadas durante el desarrollo
-     VirtualBox
-     XenOrchertra
-     .... (y mas)
+Índice de figuras
+Tabla de imágenes
+Imagen 1: Diagrama con el proceso de edición de la documentación	14
+Imagen 2: Tendencia de ofertas de trabajo relacionadas con OpenStack	20
+Imagen 3: Diagrama final de Gantt	31
+Imagen 4: Rack en el que se aloja el servidor	33
+Imagen 5: Diseño Openstack	41
+Imagen 6: Diagrama de casos de uso para usuario administrador	47
+Imagen 7: Diagrama de casos de uso para usuario alumno	48
+Imagen 8: Diagrama de casos de uso para usuario Profesor	49
+Imagen 9: Elección de idioma en el instalador de Debian	67
+Imagen 10: Configuración de red	68
+Imagen 11: Instalación de Debian	69
+Imagen 12: Añadimos un nuevo almacén de tipo NFS ISO	76
+Imagen 13: Instalación de Windows Server 2012	78
+Imagen 14: Configuración de red Windows Server	79
+Imagen 15: Asistente de instalación de roles y características	80
+Imagen 16: Página de login de Xen Orchestra	87
+Imagen 17: Pantalla de inicial de instalación Scientific Linux	88
+Imagen 18: Scientific Linux proporciona varios tipos de instalación	89
+Imagen 19: Instalación de la base de datos MySQL para ownCloud	102
+Imagen 20: Pantalla de login de ownCloud	106
+Imagen 21: Diálogo de configuración del cliente de escritorio onwCloud	107
+Imagen 22: Panel de activación de complementos en ownCloud	109
+Imagen 23: Complemento de integración de ownCloud con draw.io	109
+Imagen 47: Distintos componentes que forman OpenStack	113
+Imagen 25: Esquema de Escenario 1	118
+Imagen 26: Esquema de Escenario 2	119
+Imagen 27: Estructura de Directorio Activo	121
+Imagen 28: Diálogo de creación de usuario	127
+Imagen 29: Error de Xen API desde la interfaz de consola de xenserver	140
+Imagen 30: Sin espacio en disco en el servidor físico	141
+Imagen 31: Explicación gráfica de HeartBleed	143
 
- - Estado del arte
-     Amazon EC2
-     Eucaliptus
-     OpenNebula
-     VmWARE vCloud
-
-  - ¿Qué se pretende?
-      ¿qué es la nube?
-      Pros y contras del modelo de nube
-
- - Acceso remoto al servidor físico (xenserver05)
- - Montaje de la infraestructura
- -  ¿Qué se pretende realizar?
-       Elección de Windows
-       Elección de OpenStack como nuestro sistema Cloud Computing
-         Elección de Distribución GNU/Linux
-           Scientific Linux
-
- - Instalación del entorno de trabajo
-       Configuración Biblioteca NFS
-       Instalación XenOrchesta
-         Windows
-         Linux
-           Openstack
-        Copias de seguridad
-          owncloud
-	  git
-
- - Openstack
-      Historia
-      Componentes
-        Nova
-        Swift
-        Keystone
-        Horizon
-        .... (y mas)
-
- - Solucionando el problema
-       Autenticación en OpenStack
-       Modificaciones necesarias
-       Añadir roles
-       Creación de la primera máquina en OpenStack
-
- - Problemas encontrados
- - Ampliaciones

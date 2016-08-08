@@ -65,7 +65,7 @@ EXCLUDE_SERVERS=
 CONFIG_DEBUG_MODE=n
 
 # The IP address of the server on which to install MySQL
-CONFIG_MYSQL_HOST=156.35.95.22
+CONFIG_MYSQL_HOST=156.35.YY.XX
 
 # Username for the MySQL admin user
 CONFIG_MYSQL_USER=root
@@ -74,7 +74,7 @@ CONFIG_MYSQL_USER=root
 CONFIG_MYSQL_PW=admin.SQL
 
 # The IP address of the server on which to install the QPID service
-CONFIG_QPID_HOST=156.35.95.22
+CONFIG_QPID_HOST=156.35.YY.XX
 
 # Enable SSL for the QPID service
 CONFIG_QPID_ENABLE_SSL=n
@@ -106,7 +106,7 @@ CONFIG_QPID_AUTH_USER=qpid_user
 CONFIG_QPID_AUTH_PASSWORD=f00413bba0ae453e
 
 # The IP address of the server on which to install Keystone
-CONFIG_KEYSTONE_HOST=156.35.95.22
+CONFIG_KEYSTONE_HOST=156.35.YY.XX
 
 # The password to use for the Keystone to access DB
 CONFIG_KEYSTONE_DB_PW=c5aac06fcbd441b8
@@ -124,7 +124,7 @@ CONFIG_KEYSTONE_DEMO_PW=admin.demo
 CONFIG_KEYSTONE_TOKEN_FORMAT=PKI
 
 # The IP address of the server on which to install Glance
-CONFIG_GLANCE_HOST=156.35.95.22
+CONFIG_GLANCE_HOST=156.35.YY.XX
 
 # The password to use for the Glance to access DB
 CONFIG_GLANCE_DB_PW=c5e180b48b3c4ff2
@@ -133,7 +133,7 @@ CONFIG_GLANCE_DB_PW=c5e180b48b3c4ff2
 CONFIG_GLANCE_KS_PW=509e94cca12340eb
 
 # The IP address of the server on which to install Cinder
-CONFIG_CINDER_HOST=156.35.95.22
+CONFIG_CINDER_HOST=156.35.YY.XX
 
 # The password to use for the Cinder to access DB
 CONFIG_CINDER_DB_PW=19a5128ce29045a7
@@ -163,22 +163,22 @@ CONFIG_CINDER_NFS_MOUNTS=
 
 # The IP address of the server on which to install the Nova API
 # service
-CONFIG_NOVA_API_HOST=156.35.95.22
+CONFIG_NOVA_API_HOST=156.35.YY.XX
 
 # The IP address of the server on which to install the Nova Cert
 # service
-CONFIG_NOVA_CERT_HOST=156.35.95.22
+CONFIG_NOVA_CERT_HOST=156.35.YY.XX
 
 # The IP address of the server on which to install the Nova VNC proxy
-CONFIG_NOVA_VNCPROXY_HOST=156.35.95.22
+CONFIG_NOVA_VNCPROXY_HOST=156.35.YY.XX
 
 # A comma separated list of IP addresses on which to install the Nova
 # Compute services
-CONFIG_NOVA_COMPUTE_HOSTS=156.35.95.22
+CONFIG_NOVA_COMPUTE_HOSTS=156.35.YY.XX
 
 # The IP address of the server on which to install the Nova Conductor
 # service
-CONFIG_NOVA_CONDUCTOR_HOST=156.35.95.22
+CONFIG_NOVA_CONDUCTOR_HOST=156.35.YY.XX
 
 # The password to use for the Nova to access DB
 CONFIG_NOVA_DB_PW=3d8fff441f0f4be8
@@ -188,7 +188,7 @@ CONFIG_NOVA_KS_PW=d8d2f10bd8a940d5
 
 # The IP address of the server on which to install the Nova Scheduler
 # service
-CONFIG_NOVA_SCHED_HOST=156.35.95.22
+CONFIG_NOVA_SCHED_HOST=156.35.YY.XX
 
 # The overcommitment ratio for virtual to physical CPUs. Set to 1.0
 # to disable CPU overcommitment
@@ -203,7 +203,7 @@ CONFIG_NOVA_COMPUTE_PRIVIF=eth1
 
 # The list of IP addresses of the server on which to install the Nova
 # Network service
-CONFIG_NOVA_NETWORK_HOSTS=156.35.95.22
+CONFIG_NOVA_NETWORK_HOSTS=156.35.YY.XX
 
 # Nova network manager
 CONFIG_NOVA_NETWORK_MANAGER=nova.network.manager.FlatDHCPManager
@@ -238,7 +238,7 @@ CONFIG_NOVA_NETWORK_SIZE=255
 
 # The IP addresses of the server on which to install the Neutron
 # server
-CONFIG_NEUTRON_SERVER_HOST=156.35.95.22
+CONFIG_NEUTRON_SERVER_HOST=156.35.YY.XX
 
 # The password to use for Neutron to authenticate with Keystone
 CONFIG_NEUTRON_KS_PW=043472c8e8f74e84
@@ -248,7 +248,7 @@ CONFIG_NEUTRON_DB_PW=31577ab932d54538
 
 # A comma separated list of IP addresses on which to install Neutron
 # L3 agent
-CONFIG_NEUTRON_L3_HOSTS=156.35.95.22
+CONFIG_NEUTRON_L3_HOSTS=156.35.YY.XX
 
 # The name of the bridge that the Neutron L3 agent will use for
 # external traffic, or 'provider' if using provider networks
@@ -256,7 +256,7 @@ CONFIG_NEUTRON_L3_EXT_BRIDGE=br-ex
 
 # A comma separated list of IP addresses on which to install Neutron
 # DHCP agent
-CONFIG_NEUTRON_DHCP_HOSTS=156.35.95.22
+CONFIG_NEUTRON_DHCP_HOSTS=156.35.YY.XX
 
 # A comma separated list of IP addresses on which to install Neutron
 # LBaaS agent
@@ -267,7 +267,7 @@ CONFIG_NEUTRON_L2_PLUGIN=openvswitch
 
 # A comma separated list of IP addresses on which to install Neutron
 # metadata agent
-CONFIG_NEUTRON_METADATA_HOSTS=156.35.95.22
+CONFIG_NEUTRON_METADATA_HOSTS=156.35.YY.XX
 
 # A comma separated list of IP addresses on which to install Neutron
 # metadata agent
@@ -361,10 +361,10 @@ CONFIG_NEUTRON_OVS_VXLAN_UDP_PORT=4789
 
 # The IP address of the server on which to install the OpenStack
 # client packages. An admin "rc" file will also be installed
-CONFIG_OSCLIENT_HOST=156.35.95.22
+CONFIG_OSCLIENT_HOST=156.35.YY.XX
 
 # The IP address of the server on which to install Horizon
-CONFIG_HORIZON_HOST=156.35.95.22
+CONFIG_HORIZON_HOST=156.35.YY.XX
 
 # To set up Horizon communication over https set this to "y"
 CONFIG_HORIZON_SSL=n
@@ -379,7 +379,7 @@ CONFIG_SSL_KEY=
 
 # The IP address on which to install the Swift proxy service
 # (currently only single proxy is supported)
-CONFIG_SWIFT_PROXY_HOSTS=156.35.95.22
+CONFIG_SWIFT_PROXY_HOSTS=156.35.YY.XX
 
 # The password to use for the Swift to authenticate with Keystone
 CONFIG_SWIFT_KS_PW=bc6cfc8f91774db4
@@ -390,7 +390,7 @@ CONFIG_SWIFT_KS_PW=bc6cfc8f91774db4
 # on 127.0.0.1 as a swift storage device(packstack does not create the
 # filesystem, you must do this first), if /dev is omitted Packstack
 # will create a loopback device for a test setup
-CONFIG_SWIFT_STORAGE_HOSTS=156.35.95.22
+CONFIG_SWIFT_STORAGE_HOSTS=156.35.YY.XX
 
 # Number of swift storage zones, this number MUST be no bigger than
 # the number of storage devices configured
@@ -429,7 +429,7 @@ CONFIG_PROVISION_TEMPEST_REPO_REVISION=stable/havana
 CONFIG_PROVISION_ALL_IN_ONE_OVS_BRIDGE=n
 
 # The IP address of the server on which to install Heat service
-CONFIG_HEAT_HOST=156.35.95.22
+CONFIG_HEAT_HOST=156.35.YY.XX
 
 # The password used by Heat user to authenticate against MySQL
 CONFIG_HEAT_DB_PW=d5f488d2b2f34aaf
@@ -447,14 +447,14 @@ CONFIG_HEAT_CFN_INSTALL=n
 
 # The IP address of the server on which to install Heat CloudWatch
 # API service
-CONFIG_HEAT_CLOUDWATCH_HOST=156.35.95.22
+CONFIG_HEAT_CLOUDWATCH_HOST=156.35.YY.XX
 
 # The IP address of the server on which to install Heat
 # CloudFormation API service
-CONFIG_HEAT_CFN_HOST=156.35.95.22
+CONFIG_HEAT_CFN_HOST=156.35.YY.XX
 
 # The IP address of the server on which to install Ceilometer
-CONFIG_CEILOMETER_HOST=156.35.95.22
+CONFIG_CEILOMETER_HOST=156.35.YY.XX
 
 # Secret key for signing metering messages.
 CONFIG_CEILOMETER_SECRET=09fa56340864418d
@@ -463,7 +463,7 @@ CONFIG_CEILOMETER_SECRET=09fa56340864418d
 CONFIG_CEILOMETER_KS_PW=4e7b8077d2e44615
 
 # The IP address of the server on which to install the Nagios server
-CONFIG_NAGIOS_HOST=156.35.95.22
+CONFIG_NAGIOS_HOST=156.35.YY.XX
 
 # The password of the nagiosadmin user on the Nagios server
 CONFIG_NAGIOS_PW=00048e2aa4aa4b78
